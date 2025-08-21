@@ -2,9 +2,9 @@ package DbHelper;
 import java.sql.*;
 
 public class DbHelper {
-    private static final String URL = "your_database_url";
+    private static final String URL = "jdbc:mysql://localhost:3306/student";
     private static final String USER = "root";
-    private static final String PASSWORD = "your_password";
+    private static final String PASSWORD = "Ltj321286+";
 
     /**
      * Establishes a connection to the database.
